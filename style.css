@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+    background-color: whitesmoke;
+}
+
+header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    font-size: 40px;
+    background-image: url(../images/tiles-shapes-2617112_1920.jpg);
+    padding: 50px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+}
+
+nav {
+    position: absolute;
+    text-align: left;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightgoldenrodyellow;
+}
+
+.container {
+    display: inline-flex;
+    align-items: center;
+}
+
+#bellabeat, 
+#database,
+#math {
+    margin-left:200px;
+    padding-top: 500px;
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    word-wrap: normal;
+    text-align: center;
+}
+
+#experience,
+#training {
+    font-family: Lucida Sans;
+    padding-top: 500px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    word-wrap: normal;
+    text-align: center;
+    display: flex;
+    flex-grow: 2;
+    margin: auto;
+}
+
+#quote {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    width: 1000px;
+    padding: 80px;
+    background-color: rgb(162, 196, 196);
+    display: flex;
+    flex-grow: 2;
+    margin: auto;
+}
+
+#profilepic {
+    height: 400px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+#history {
+    font-family: Lucida Sans;
+    padding: 100px;
+    width: 1000px;
+    font-size: 20px;
+    justify-content: space-around;
+    word-wrap: normal;
+    text-align: center;
+    display: flex;
+    flex-grow: 2;
+    margin: auto;
+}
+
+#contact{
+    font-family: Lucida Sans;
+    padding: 500px;
+    flex-direction: column;
+    justify-content: space-around;
+    word-wrap: normal;
+    text-align: center;
+    display: flex;
+    flex-grow: 2;
+    margin: auto;
+
+#linkedin {
+    height: 50px;
+    width: 50px;
+}
