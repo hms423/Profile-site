@@ -14,7 +14,8 @@ header {
     width: 100%;
     font-size: 40px;
     background-image: url(../images/tiles-shapes-2617112_1920.jpg);
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 img {
@@ -27,16 +28,11 @@ nav {
     position: absolute;
     text-align: left;
     top: 0;
-    left: 0;
     font-size: 30px;
 }
 
 nav ul {
     list-style: none;
-}
-
-nav li {
-    
 }
 
 nav a {
